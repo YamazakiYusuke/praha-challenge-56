@@ -53,7 +53,7 @@
   "lint-staged": {
     "**/*.{tsx,ts}": [
       "prettier --write",
-      "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+      "eslint \"{src,apps,libs,test}/**/*.{js,jsx,ts,tsx}\" --fix"
     ]
   }
 }
